@@ -71,3 +71,28 @@ console.log(typeof myfunction);
 
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+
+// Stack memomry (stack memory is used for storinf PRIMITIVE data types),
+//  whenever you declare a variable you get the copy of original, Heap(Non-primitive) whereas 
+//when you store values in stack you get copy of valus whereas in Heap you get the reference of it, [whatever updates you make you get to see all the changes in the value that is the original value.]
+
+let myfirstname = "sujata"
+let mylastname = myfirstname
+mylastname = "khairkar"
+console.log(myfirstname);
+console.log(mylastname);
+
+let userOne = {
+    email: "user@google.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "sujata@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+console.log(userOne.upi);
+console.log(userTwo.upi);
