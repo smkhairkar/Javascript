@@ -44,3 +44,4 @@ console.log("B ", myfirstArr);
 const myn2 = myfirstArr.splice(1,5)
 console.log("C", myn2);
 console.log(myn2);
+f
