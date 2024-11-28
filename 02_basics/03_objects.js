@@ -4,9 +4,6 @@
 
 // Object.create
 
-const mySym = Symbol("key1")
-
-
 const JSUser = {
     name: "Sujata",
     "full name": "Sujata Khairkar",
